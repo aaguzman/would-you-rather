@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.question {
+  background-color: rgb(241, 241, 241);
+  margin: 10px 22.5% 10px 22.5%;
+  width: 55%;
+  
+}
+
+.header {
+  background-color: rgb(201, 201, 201);
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: .2em  1em .2em 1em;
+
+}
+
+.avatar {
+  display: inline;
+  height: 140px;
+  
+  
+}
+
+.question-body{
+  display: inline;
+  height: auto;
+  width: auto;
+  margin-right: 20%;
+  float: right;
+  
+}
+.btn-show-poll {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  border-radius: 5%;
+  font-size: 18px;
+  display: block;
+  margin-top: 20%;
+
+}
+
+.btn-show-poll:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-show-poll:focus {outline:0;}
+
+.circle {
+  height: 100px;
+}
+
+.content {
+  margin-top: 20px
+}
+
+.card .btn {
+ margin-top: 10px
+}
+
+.content .card {
+  margin-top: 10px
+}
+
+.center {
+  text-align: center
+}
+
+.text-red {
+  color: #f88
+}
+.text-blue {
+  color: #3E98C7
+}
+
+.nav-link .img-responsive {
+  width: 16%;
+  padding: 0px 8px 0px 0px;
+  border-radius: 50%
+}
+
+.card .img-responsive {
+  border-radius: 50%;
+  width:100%;
+
+}
