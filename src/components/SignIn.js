@@ -8,7 +8,6 @@ class SignIn extends Component {
     handleChange = (e) => {
         const text = e.target.value
         this.props.dispatch(login(text))
-        this.props.history.push('/')
       }
 
     render(){
